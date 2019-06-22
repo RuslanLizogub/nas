@@ -12,7 +12,7 @@ Hint 1: try 1000, 5000, 10000 number of rolls and see how distribution changes
 Hint 2: think about how to implement the solution in the most efficient way
 ```
 
-##Explanation on the example of 1000 rolls of 1 die.
+## Explanation on the example of 1000 rolls of 1 die
 ```
 1) First, we throw a dice for 1000 times and save how many times each number has fallen.
 2) The probabilities for one die are calculated using the formula (for example, 1000 shots):
