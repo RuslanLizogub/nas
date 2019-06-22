@@ -13,6 +13,7 @@ Hint 2: think about how to implement the solution in the most efficient way
 ```
 
 ##Explanation on the example of 1000 rolls of 1 die.
+```
 1) First, we throw a dice for 1000 times and save how many times each number has fallen.
 2) The probabilities for one die are calculated using the formula (for example, 1000 shots):
 `100% / 1000 (dice rolls) = 0.1%` (for one roll). 
@@ -20,6 +21,7 @@ Hint 2: think about how to implement the solution in the most efficient way
 4) Then we simply multiply the number of the drops of each number by the percentage of falling out (0.1%)
 5) After we get the percentage, we check that the deviation does not go up by 5%:
 `100% / 6 = 16.6%`, tolerance `> = 11.6 && <= 21.6`
+```
 
 ## Running by gradle
 ```sh
